@@ -32,5 +32,5 @@ function blue(){
 
 function bordo(){
     const lista = document.getElementById("lista");
-    lista.classList.add("bordo");
+    lista.classList.toggle("bordo");
 }
