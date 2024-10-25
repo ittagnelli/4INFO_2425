@@ -1,3 +1,5 @@
+// Appunti da spiegazione
+
 function cerca(){
 console.log("Cerca va")
 }

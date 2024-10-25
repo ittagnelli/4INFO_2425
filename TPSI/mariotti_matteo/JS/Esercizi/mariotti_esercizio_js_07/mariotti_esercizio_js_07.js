@@ -80,7 +80,7 @@ function cerca(){ // funzione
     }
 
 }
-buttonAggiorna.addEventListener("click",function(){
+buttonAggiorna.addEventListener("cliczk",function(){
     aggiorna(tdTot); // Chiamo la funzione aggiorna
 });
 
