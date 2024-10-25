@@ -1,0 +1,91 @@
+.title{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 60px;
+}
+
+input{
+    margin-left: 32%;
+    margin-top: 2%;
+}
+
+select{
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+#add{
+    font-size: 40px;
+    margin-left: 70%;
+    margin-top: -2%;
+    color: green;
+    cursor: pointer;
+}
+
+.line{
+    height: 8px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+#table{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.colSpan{
+    column-span: 50px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.fa-check{
+    color: green;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.fa-trash{
+    color: red;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.fa-arrow-up{
+    color: red;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.fa-arrow-down{
+    color: green;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.fa-arrow-right{
+    color: orange;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+td{
+    padding: 10px 60px;
+}
