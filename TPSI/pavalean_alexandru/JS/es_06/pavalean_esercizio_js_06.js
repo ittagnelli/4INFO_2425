@@ -8,7 +8,7 @@ function aggiunginome(){
     ul.append(riga);
 }
 
-function colora(){
+/*function colora(){
     const ul = document.getElementById("lista");
     const li_items = ul.children;
     for(let i = 0; i < li_items.length;i++){
@@ -26,4 +26,4 @@ function grassetto(){
 function bordo(){
     const ul = document.getElementById("lista");
     ul.classList.toggle("bordo");
-}
+}*/
