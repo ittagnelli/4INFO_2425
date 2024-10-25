@@ -72,3 +72,38 @@
 // // function rimuovi(tr){
 // // const tabella = document.getElementById("lista")
 // // // tabella.removeChild("tr")
+
+
+
+
+// let surname = document.getElementById("cognome").value;
+// let phone = document.getElementById("numero").value;
+
+// let table = document.getElementById("tab");
+// let righe = table.getElementsByTagName("tr");
+// let buttonAggiorna = document.getElementById("agg");
+// let cellePresenti = null;
+
+// for (let i = 1; i < righe.length; i++) { 
+//     let celle = righe[i].getElementsByTagName("td"); 
+
+//     let cellSurname = celle[0].innerText; 
+//     let cellPhone = celle[3].innerText; 
+
+//     if (cellSurname === surname || cellPhone === phone) {
+//         console.log("ciao")
+//         document.getElementById("tdsurname").value = cellSurname;
+//         document.getElementById("tdphone").value = cellPhone;
+//         document.getElementById("tdname").value = celle[1].innerText;
+//         document.getElementById("tdaddress").value = celle[2].innerText;
+
+//         cellePresenti = celle;
+//     }else{
+//         alert("non presente nella lista oppure campi vuoti");
+//     }
+
+// }
+// buttonAggiorna.addEventListener("click",function(){
+//     aggiorna(cellePresenti);
+// });
+// }
