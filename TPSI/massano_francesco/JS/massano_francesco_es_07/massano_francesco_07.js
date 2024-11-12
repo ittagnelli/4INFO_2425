@@ -19,7 +19,6 @@ function salva() {
     bottone.addEventListener("click", function () {
         tr.remove()
     });
-
     td_bottone.append(bottone)
     tr.append(td_cognome, td_nome, td_indirizzo, td_telefono, td_bottone);
     tbody.append(tr);
