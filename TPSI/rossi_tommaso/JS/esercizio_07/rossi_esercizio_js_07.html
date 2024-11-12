@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap">
+        <link rel="stylesheet" href="rossi_esercizio_js_07.css">
+        <title>Rubrica JS</title>
+    </head>
+    <body>
+        <h1 class="main-title">Rubrica JS</h1>
+            <tr">
+                    </tr"><table>
+                <tbody>
+                    <tr>
+                    <th>Cognome</th>
+                    <th>Nome</th>
+                    <th>Indirizzo</th>
+                    <th>Telefono</th>
+                    <th colspan="2">Azioni</th>
+                </tr>
+                <tr class="inputx">
+                    <td><input id="Cognome" type="text" size="15/"></td>
+                    <td><input id="Nome" type="text" size="15/"></td>
+                    <td><input id="Indirizzo" type="text" size="30/"></td>
+                    <td><input id="Telefono" type="text" size="10/"></td>
+                    <td>
+                        <button onclick="search()">Cerca</button>
+                    </td>
+                    <td>
+                        <button onclick="save()">Salva</button>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Marconi</td>
+                    <td>Guglielmo</td>
+                    <td>Via Spalato 33</td>
+                    <td>3332545434</td>
+                    <td colspan="2">
+                        <button onclick="remove(this)">Rimuovi</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Linus</td>
+                    <td>Torvalds</td>
+                    <td>strada Kernel 6</td>
+                    <td>432323432</td>
+                    <td colspan="2">
+                        <button onclick="remove(this)">Rimuovi</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table> 
+            
+            <script src="rossi_esercizio_js_07.js"></script>
+    
+</body></html>
