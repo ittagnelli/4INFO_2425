@@ -9,10 +9,6 @@ function assegnaTesto(created, text) {
     return created;
 }
 
-function table() {
-    return document.getElementById("paghe");
-}
-
 function righe() {
     let tabella = table();
     return tabella.querySelectorAll("tr");
@@ -32,6 +28,10 @@ function nPagheCheck() {
 // prende un elemento in base all'id
 function getById(id) {
     return document.getElementById(id);
+}
+
+function table() {
+    return getById("paghe");
 }
 
 // prende una lista di elementi in base alla classe
