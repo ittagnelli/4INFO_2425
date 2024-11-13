@@ -59,16 +59,16 @@ function average() {
     return sum() / nPaghe();
 }
 
-// controlla se l'elemento è già desplayed ed in caso negativo lo mostra
-function isDesplayed(elemento, classe) {
-    if(elemento.length > 0)
-        show(elemento, classe);
-}
-
 // rimuove classe agli elementi di una lista di lunghezza 3 (utilizzata per mostrare i tr totale e media)
 function show(lista, classe) {
     for(let i = 0; i < 3; i++)
         lista[0].classList.remove(classe);
+}
+
+// controlla se l'elemento è già desplayed ed in caso negativo lo mostra
+function isDesplayed(elemento, classe) {
+    if(elemento.length > 0)
+        show(elemento, classe);
 }
 
 // aggiunge o aggiorna
