@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://tpsi.mancusoa.it/support/4/js/carrello_js_template.html -->
+<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./romano_esercizio_js_carrello_files/icon.css">
+    <link rel="stylesheet" href="romano_esercizio_js_carrello.css">
+    <title>Carrello JS</title>
+</head>
+
+<body>
+    <h1 class="main-title">Carrello JS</h1>
+    <table id="carrello">
+        <tbody><tr>
+            <th>Prodotto</th>
+            <th>Quantità</th>
+            <th>Costo</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input id="product" type="text" size="30"></td>
+            <td><input id="quantity" type="number" min="1"></td>
+            <td><input id="price" type="number" min="1"></td>
+            <td>
+                <span class="material-icons icon" onclick="addProdotto()">add</span>
+            </td>
+            <td>
+                <span class="material-icons icon" onclick="addUpdateSomma()">functions</span>
+            </td>
+        </tr>
+            <td colspan="4" class="hidden">
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="hidden">TOTALE</td>
+            <td id="totale" class="hidden">73.93 €</td>
+        </tr>
+
+    </tbody></table>
+
+    <script src="romano_esercizio_js_carrello.js"></script>
+
+
+</body></html>
