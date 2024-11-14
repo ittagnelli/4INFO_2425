@@ -40,6 +40,7 @@ function createTR(prodotto, quantita, costo) {
     let td_importo = document.createElement('td');
     td_importo.id = `importo_${id}`;
     td_importo.classList.add('importo');
+    td_importo.classList.add('costo');
     td_importo.innerText = Math.round(costo * quantita * 100) / 100;
 
     let td_icon = document.createElement('td');
