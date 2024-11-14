@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="carrello_js_mariotti.css">
+    <title>Carrello JS</title>
+    <script src="carrello_js_mariotti.js"></script>
+</head>
+
+<body>
+    <h1 class="main-title">Carrello JS</h1>
+    <table id="carrello">
+        <tbody><tr>
+            <th>Prodotto</th>
+            <th>Quantità</th>
+            <th>Costo</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr id="rif">
+            <td><input id="prodoo" type="text" size="30"></td>
+            <td><input id="qty" type="number" min="1"></td>
+            <td><input id="costo" type="number" min="1"></td>
+            <td>
+                <span class="material-icons icon" onclick="add()">add</span>
+            </td>
+            <td>
+                <span class="material-icons icon" onclick="somma()">functions</span>
+            </td>
+        </tr>
+
+
+
+            <td colspan="4">
+                <hr>
+            </td>
+        </tr> 
+        <tr>
+            <td colspan="3">TOTALE</td>
+            <td id="totale"></td>
+        </tr>
+
+    </tbody>
+    </table>
+
+
+</body>
+
+</html>
