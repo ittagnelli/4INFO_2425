@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+        <link rel="stylesheet" href="ardoino_registro_eln.css">
+        <title>Registro Elettronico</title>
+    </head>
+    <body>
+        <h1 class="main-title">Registro Elettronico</h1>
+        
+            <div class="section">
+                <input type="text" id="cognome_studente" placeholder="Cognome studente" size=15/>
+                <input type="text" id="nome_studente" placeholder="Nome studente" size=15/>
+                <span id="pulasante"   class="material-icons icona-button icona-adjust" onclick="add_student()">person_add_alt</span>
+            </div>
+            
+            <div id="studente1" class="section">
+                <span class="student grassetto">Mario Rossi</span>
+                <input type="text" id="input_materia_studente1" placeholder="Materia" />
+                <input type="number" id="input_voto_studente1" placeholder="Voto" min="2" max="10" step="0.5" />
+                <span class="material-icons icona-button icona-adjust" onclick="add_materia('studente1')">add</span>
+                <span class="material-icons icona-button icona-adjust" onclick="update_average('studente1')">timeline</span>
+            </div>
+            <table id="table_studente1">
+                <tr>
+                    <th>Materia</th>
+                    <th>Voto</th>
+                </tr>
+                <tr>
+                    <td>Italiano</td>
+                    <td class="td_voto_studente1">7</td>
+                </tr>
+                <tr>
+                    <td>Storia</td>
+                    <td class="td_voto_studente1">8</td>
+                </tr>
+                <tr>
+                    <td>Matematica</td>
+                    <td class="td_voto_studente1">6</td>
+                </tr>
+                <tr>
+                    <td>TPSI</td>
+                    <td class="td_voto_studente1">8</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="grassetto">Media</td>
+                    <td class="grassetto"><mark>7.25</mark></td>
+                </tr>
+            </table>   
+            <script src="ardoino_registro_eln.js"></script>     
+        
+    </body>
+</html>
