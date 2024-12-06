@@ -15,3 +15,23 @@ let automobile = function (modello, marca, cilindrata, cambio, motore) {
       });
       
   };
+
+
+  let automobile1 = new automobile("Z1", "Ferrari", "8000", "8", "V8");
+  let automobile2 = new automobile("camaro", "mustang", "8000", "8", "V8");
+  let automobile3 = new automobile("Z1", "Ferrari", "8000", "8", "V8");
+
+
+  automobile1.modello_marca()
+  automobile1.cilindrata_motore()
+  automobile1.cambio_olio()
+
+
+  automobile2.modello_marca()
+  automobile2.cilindrata_motore()
+  automobile2.cambio_olio()
+
+
+  automobile3.modello_marca()
+  automobile3.cilindrata_motore()
+  automobile3.cambio_olio()
