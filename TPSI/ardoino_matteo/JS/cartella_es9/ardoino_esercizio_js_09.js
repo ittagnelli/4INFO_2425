@@ -1,0 +1,5 @@
+let utente = promt("login") || alert("canceled")
+utente == null || utente =="Admin" || alert("I don't know you")
+utente == "Admin" && (password == promt("password"))
+password == null || password == "Agnell1no" || allert("wrong password")
+password == "Agnell1no" && alert("Welcome")
