@@ -17,4 +17,4 @@ function login(){
     user == "Admin" && (password = prompt("Password: "));
     password == null || password == "Agnell1no" || alert("Wrong password");
     password == "Agnell1no" && alert("Welcome")
-}
+}   
