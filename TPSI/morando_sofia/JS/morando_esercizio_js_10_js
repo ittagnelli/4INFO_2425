@@ -1,0 +1,12 @@
+    let utente = {
+        nome: "Sofia Stella",
+        cognome: "Morando"
+
+      };
+
+let chiavi = Object.keys(utente);
+for(let i = 0; i < chiavi.length; i++){
+    console.log(utente[chiavi[i]])
+    let k = chiavi[i];
+    let v = utente[k];
+}
