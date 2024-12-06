@@ -1,6 +1,6 @@
 let utente = {
-    nome: "edo",
-    cognome:"aoao",
+    nome: "Mario",
+    cognome:"Rossi",
 }
 let obj = Object.keys(utente)
 
