@@ -1,31 +1,31 @@
-function somma(n) {
+function sum(c) {
 
-    if ( n ==='string' || n <= 0) {
-        console.log("Errore: il parametro deve essere un numero intero positivo maggiore di zero.");
+    if ( c ==='string' || c <= 0) {
+        console.log("Errore: Valore minore o uguale a zero");
         return null;
     }
 
 
-    let somma = 0;
-    for (let i = 0; i <= n; i++) {
-        somma += i;
+    let sum1 = 0;
+    for (let i = 0; i <= c; i++) {
+        sum1 += i;
     }
 
-    return somma;
+    return sum1;
 }
 
 function main() {
-    console.log("Test 1: Parametro = 5 (numero)");
-    parametro1 = Number(5);
-    console.log("Risultato:", somma(parametro1));
+    console.log("Numero");
+    par1 = Number(5);
+    console.log("Risultato:", sum(par1));
 
-    console.log("\nTest 2: Parametro = '10' (string)");
-    parametro2 = String(10);
-    console.log("Risultato:", somma(parametro2));
+    console.log("\nStringa");
+    par2 = String(10);
+    console.log("Risultato:", sum(par2));
 
-    console.log("\nTest 3: Parametro = -3 (numero negativo");
-    parametro3 = Number(-3);
-    console.log("Risultato:", somma(parametro3)); 
+    console.log("\nNumero negativo");
+    par3 = Number(-3);
+    console.log("Risultato:", sum(par3)); 
 
 }
 

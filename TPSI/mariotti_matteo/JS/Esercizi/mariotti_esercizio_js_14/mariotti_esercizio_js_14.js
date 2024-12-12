@@ -1,17 +1,17 @@
-function differenzaOrari(orario1, orario2) {
-    const ms1 = orario1.h * 3600000 + orario1.m * 60000 + orario1.s * 1000;
-    const ms2 = orario2.h * 3600000 + orario2.m * 60000 + orario2.s * 1000;
+function differenzaOrari(time1, time2) {
+    const ms1 = time1.h * 3600000 + time1.m * 60000 + time1.s * 1000;
+    const ms2 = time2.h * 3600000 + time2.m * 60000 + time2.s * 1000;
 
-    const differenzaMs = Math.abs(ms2 - ms1);
-    const differenzaSecondi = differenzaMs / 1000;
-    const differenzaMinuti = differenzaMs / (1000 * 60);
-    const differenzaOre = differenzaMs / (1000 * 60 * 60);
+    const diffMs = Math.abs(ms2 - ms1); 
+    const diffSec = diffMs / 1000;
+    const diffMin = diffMs / (1000 * 60);
+    const DiffOre = diffMs / (1000 * 60 * 60);
 
     return {
-        millisecondi: differenzaMs,
-        secondi: differenzaSecondi,
-        minuti: differenzaMinuti,
-        ore: differenzaOre
+        millisecondi: diffMs,
+        secondi: diffSec,
+        minuti: diffMin,
+        ore: DiffOre
     };
 }
 
