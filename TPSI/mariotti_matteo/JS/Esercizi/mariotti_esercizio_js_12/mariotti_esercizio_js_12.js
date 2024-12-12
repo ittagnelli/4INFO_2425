@@ -1,54 +1,54 @@
-const Animale = {
-  type: "Mammifero",
-  color: "Marrone",
-  weight: 15,
+const Animal = {
+  type: "Rettile",
+  color: "Verde",
+  weight: 5,
 
   speak() {
-      console.log("Ciao, sono un " + this.type + "!");
+      console.log("Razza: " + this.type + "!");
   },
   size() {
-      console.log("Il mio peso è: " + this.weight + " kg");
+      console.log("Peso: " + this.weight + " kg");
   },
   color() {
-      console.log("Il mio colore è: " + this.color + "!");
+      console.log("Colore: " + this.color + "!");
   },
   enumera() {
       console.log(Object.keys(this));
   }
 };
 
-const Automobile = {
-  marca: "Fiat",
-  modello: "500",
-  velocitaMassima: 180,
+const Car = {
+  marca: "Ferrari",
+  modello: "Z1",
+  velocitaMassima: 350,
 
   speak() {
-      console.log("La marca di questa macchina è la " + this.smarca + "!");
+      console.log("Marca: " + this.smarca + "!");
   },
   size() {
-      console.log("La mia velocità massima è: " + this.velocitaMassima + " km/h!");
+      console.log("Velocità Max: " + this.velocitaMassima + " km/h!");
   },
   model() {
-      console.log("Il mio modello è: " + this.modello + "!");
+      console.log("Modello: " + this.modello + "!");
   },
   enumera() {
       console.log(Object.keys(this));
   }
 };
 
-const Poligono = {
-  numeroLati: 4,
-  lunghezzaLato: 5,
-  colore: "Blu",
+const Polygon = {
+  numeroLati: 8,
+  lunghezzaLato: 4,
+  colore: "Rosso",
 
   speak() {
-      console.log("Il numero dei suoi lati è " + this.numeroLati + "!");
+      console.log("Lati: " + this.numeroLati + "!");
   },
   size() {
-      console.log("La lunghezza di ogni lato è: " + this.lunghezzaLato + " cm!");
+      console.log("Lunghezza lati: " + this.lunghezzaLato + " cm!");
   },
   color() {
-      console.log("Il mio colore è: " + this.colore + "!");
+      console.log("Colore: " + this.colore + "!");
   },
   enumera() {
       console.log(Object.keys(this));
@@ -56,21 +56,21 @@ const Poligono = {
 };
 
 
-console.log("Animale:");
-Animale.speak();
-Animale.size();
-Animale.color();
-Animale.enumera();
+console.log("Poligono:");
+Polygon.speak();
+Polygon.size();
+Polygon.color();
+Polygon.enumera();
 
-console.log("\nAutomobile:");
-Automobile.speak();
-Automobile.size();
-Automobile.model();
-Automobile.enumera();
+console.log("\nAnimale:");
+Animal.speak();
+Animal.size();
+Animal.model();
+Animal.enumera();
 
-console.log("\nPoligono:");
-Poligono.speak();
-Poligono.size();
-Poligono.color();
-Poligono.enumera();
+console.log("\nMacchina:");
+Car.speak();
+Car.size();
+Car.color();
+Car.enumera();
 Footer
