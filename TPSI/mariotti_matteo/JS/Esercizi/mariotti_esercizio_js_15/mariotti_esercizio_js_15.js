@@ -12,8 +12,9 @@ function fibbonacci(ennesimo_numero){ // Sequenza di fibbonnacci
         c = a + b;
         a = b;
         b = c;        
-        console.log(c)
+        //console.log(c)
     }
+    console.log(c)
 }
 
 function main(){
