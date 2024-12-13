@@ -31,8 +31,15 @@ function main(){
         orario2: {h: 1, m: 30, s: 20},
         orario3: {h: 0, m: 12, s: 30}
     }
-    
+    const orari1 = { // Ho messo un oggetto dentro un oggetto
+        orario1: {h: 2, m: 16, s: 10},
+        orario2: {h: 1, m: 32, s: 21},
+        orario3: {h: 0, m: 21, s: 47}
+    }
+
     orario_minore(orari.orario1, orari.orario2, orari.orario3) // Chiamo funzione orario minore
+    orario_minore(orari1.orario1, orari1.orario2, orari1.orario3) // Chiamo funzione orario minore
+
 
 }
 

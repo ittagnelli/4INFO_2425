@@ -8,7 +8,7 @@ function inserire_valore(n){ //Useless with the new method
 function fibbonacci(ennesimo_numero){ // Sequenza di fibbonnacci
     a = 0;
     b = 1;
-    for (let i = 0; i < ennesimo_numero; i++) {
+    for (let i = 0; i < ennesimo_numero-1; i++) {
         c = a + b;
         a = b;
         b = c;        
