@@ -14,18 +14,19 @@ function fibbonacci(ennesimo_numero){ // Sequenza di fibbonnacci
         b = c;        
         console.log(c)
     }
-
 }
 
 function main(){
+    n = 4;
+    n1 = 9;
+
     console.log("Entrato nel main")
-    for (let i = 4; i <= 9; i++) {
+    for (let i = n; i <= n1; i++) {
         console.log("n = ", i)
         // ennesimo_numero = inserire_valore();
         ennesimo_numero = i;
         fibbonacci(ennesimo_numero);
     }
-
 }
 
 main();
