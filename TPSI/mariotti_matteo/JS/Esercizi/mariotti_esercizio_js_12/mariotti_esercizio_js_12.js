@@ -13,8 +13,10 @@ const Animal = {
       console.log("Colore: " + this.color + "!");
   },
   enumera() {
-      console.log(Object.keys(this));
-  }
+    console.log(Object.keys(this));
+    for(let attribute in attributes){
+      console.log(attributes[attribute])
+    }  }
 };
 
 const Car = {
@@ -33,6 +35,9 @@ const Car = {
   },
   enumera() {
       console.log(Object.keys(this));
+      for(let attribute in attributes){
+        console.log(attributes[attribute])
+      }
   }
 };
 
@@ -52,25 +57,29 @@ const Polygon = {
   },
   enumera() {
       console.log(Object.keys(this));
+      for(let attribute in attributes){
+        console.log(attributes[attribute])
+      }
   }
 };
 
 
-console.log("Poligono:");
-Polygon.speak();
-Polygon.size();
-Polygon.color();
-Polygon.enumera();
 
-console.log("\nAnimale:");
-Animal.speak();
-Animal.size();
-Animal.model();
-Animal.enumera();
 
-console.log("\nMacchina:");
-Car.speak();
-Car.size();
-Car.color();
-Car.enumera();
-Footer
+// console.log("Poligono:");
+// Polygon.speak();
+// Polygon.size();
+// Polygon.color();
+// Polygon.enumera();
+
+// console.log("\nAnimale:");
+// Animal.speak();
+// Animal.size();
+// Animal.model();
+// Animal.enumera();
+
+// console.log("\nMacchina:");
+// Car.speak();
+// Car.size();
+// Car.color();
+// Car.enumera();
