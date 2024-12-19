@@ -10,6 +10,7 @@ function ms(orario1, orario2) {
 
     let hD = orario1.ore > orario2.ore ? orario1.ore - orario2.ore : orario2.ore - orario1.ore;
     let mD = orario1.minuti > orario2.minuti ? orario1.minuti - orario2.minuti : orario2.minuti - orario1.minuti;
+:Q
     let sD = orario1.secondi > orario2.secondi ? orario1.secondi - orario2.secondi : orario2.secondi - orario1.secondi;
     let msD = milliseconds1 > milliseconds2 ? milliseconds1 - milliseconds2 : milliseconds2 - milliseconds1;
 
