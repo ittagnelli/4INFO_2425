@@ -1,4 +1,5 @@
 function calcola(n1, n2, risultato) {
+
     return risultato(n1, n2);
 }
 
