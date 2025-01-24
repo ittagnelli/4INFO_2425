@@ -22,3 +22,4 @@ console.log(`Il prodotto è: ${risultatoProdotto}`);
 
 const risultatoElevamento = operazione(2, 3, elevamentoAPotenza);
 console.log(`L'elevamento a potenza è: ${risultatoElevamento}`);
+    
