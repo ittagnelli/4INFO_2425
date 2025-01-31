@@ -1,3 +1,0 @@
-Questo è un file di testo di prova.
-Sto scrivendo alcune righe di testo per testare il file.
-Questa è la terza riga di testo.

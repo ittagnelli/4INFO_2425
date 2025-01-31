@@ -1,3 +1,0 @@
-git branch -a (vedo la lista dei branch e il branch in cui sono)
-git checkout (mi muovo tra i branch)
-git checkout -b (creo un branch)
