@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestore di Film</title>
+    <link rel="stylesheet" href="pavalean_esercizio_js_recupero.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestore di Film</h1>
+
+        <!-- Form per aggiungere/modificare un film -->
+        <form id="movieForm">
+            <input type="text" id="title" placeholder="Titolo" required>
+            <input type="text" id="director" placeholder="Regista" required>
+            <input type="number" id="year" placeholder="Anno di uscita" required>
+            <button type="button" id="submitButton" onclick="aggiungi()">Aggiungi Film</button>
+        </form>
+
+        <!-- Barra di ricerca -->
+        <div id="searchContainer">
+            <input type="text" id="search" placeholder="Cerca per titolo o regista">
+            <button id="searchButton" onclick="cerca()">Cerca</button>
+        </div>
+
+        <!-- Contenitore per le cards -->
+        <div id="movieContainer">
+            <!-- Cards dinamiche -->
+        </div>
+    </div>
+    <script src="pavalean_esercizio_js_recupero.js"></script>
+
+
+
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it">
+<!-- Pagina HTML -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Mancuso" />
+    <meta name="description" content="Empty Page" />
+    <meta name="keywords" content="js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        .grassetto{
+            font-weight: bold;
+        }
+
+        .blue{
+            color: blue;
+        }
+
+        .bordo{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <input type="text" name="name" id="name" placeholder="Nome studente">
+    <input type="number" name="voto" id="voto" placeholder="Voto studente">
+    <button onclick="add()">aggiungi uno studente</button>
+    <button onclick="grassetto()">grassetto</button>
+    <button onclick="blue()">blu</button>
+    <button onclick="bordo()">bordo</button>
+
+    <ul id="lista"></ul>
+
+</body>
+
+<script src="casini_esercizio_js_06.js"></script>
+
+</html>
