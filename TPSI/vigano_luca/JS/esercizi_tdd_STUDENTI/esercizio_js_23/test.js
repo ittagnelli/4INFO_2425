@@ -1,4 +1,4 @@
-import { abbreviazione } from './es_23.js';
+import { abbreviazione } from './vigano_esercizio_js_23.js';
 
 describe("ESERCIZIO 23", () => {
     test('TEST 01', () => {
