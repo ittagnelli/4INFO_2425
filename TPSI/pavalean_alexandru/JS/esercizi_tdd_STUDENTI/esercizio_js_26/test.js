@@ -1,4 +1,4 @@
-import { capitalize } from './es_26.js';
+import { capitalize } from './pavalean_esercizio_js_26.js';
 
 describe("ESERCIZIO 26", () => {
     test('TEST 01', () => {
