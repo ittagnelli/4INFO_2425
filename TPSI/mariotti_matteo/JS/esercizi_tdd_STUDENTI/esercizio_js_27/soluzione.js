@@ -14,6 +14,6 @@ export const capitalize_all = (str) => {
       }
       c = y.concat(" ")
    }    
-   c = str  
+   c = str
 }
 
