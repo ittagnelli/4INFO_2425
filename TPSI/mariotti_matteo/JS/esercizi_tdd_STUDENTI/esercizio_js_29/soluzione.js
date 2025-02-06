@@ -1,3 +1,10 @@
 export const invert_case = (str) => {
-   //INSERISCI QUI IL TUO CODICE
+
+return str.split('').map(char => {
+    if (char === char.toUpperCase()) {
+        return char.toLowerCase();
+    } else {
+        return char.toUpperCase();
+    }
+}).join('');
 }
