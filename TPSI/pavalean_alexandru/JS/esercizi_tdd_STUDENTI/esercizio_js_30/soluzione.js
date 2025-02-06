@@ -1,4 +1,4 @@
 export const tronca = (str, l) => {
-    let stringa_estratta = str.slice(l, 1000)
+    let stringa_estratta = str.slice(l, str.lenght)
     return str.replace(stringa_estratta, '...')
 }

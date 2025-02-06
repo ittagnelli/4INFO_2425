@@ -1,4 +1,4 @@
-import { tronca_parola } from "./es_36.js";
+import { tronca_parola } from "./pavalean_esercizio_js_36.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 36", () => {

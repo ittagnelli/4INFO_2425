@@ -1,4 +1,4 @@
-import { tronca } from "./es_35.js";
+import { tronca } from "./pavalean_esercizio_js_35.js";
 import fs from "fs";
 
 describe("ESERCIZIO 35", () => {

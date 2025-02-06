@@ -1,4 +1,4 @@
-import { insert } from "./es_34.js";
+import { insert } from "./pavalean_esercizio_js_34.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 34", () => {

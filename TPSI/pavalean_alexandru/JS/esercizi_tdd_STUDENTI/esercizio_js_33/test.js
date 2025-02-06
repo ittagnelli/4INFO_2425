@@ -1,4 +1,4 @@
-import { concatenateN } from "./es_33.js";
+import { concatenateN } from "./pavalean_esercizio_js_33.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 33", () => {

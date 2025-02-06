@@ -1,4 +1,4 @@
-import { rm_string } from "./es_37.js";
+import { rm_string } from "./pavalean_esercizio_js_37.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 37", () => {
