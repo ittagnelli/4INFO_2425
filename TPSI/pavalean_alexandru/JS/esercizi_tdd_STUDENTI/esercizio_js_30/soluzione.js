@@ -1,3 +1,4 @@
 export const tronca = (str, l) => {
-    //INSERISCI QUI IL TUO CODICE
+    let stringa_estratta = str.slice(l, 1000)
+    return str.replace(stringa_estratta, '...')
 }
