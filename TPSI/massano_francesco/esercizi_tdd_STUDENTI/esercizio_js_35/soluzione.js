@@ -1,3 +1,8 @@
 export const tronca = (s, n) => {
-    //INSERISCI QUI IL TUO CODICE
+    if (s.length <= n) {
+        return s.slice(0, n);
+    }
+    else {
+        return s.slice(0, n) + '...';
+    }
 };
