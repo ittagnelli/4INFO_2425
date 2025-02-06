@@ -1,3 +1,3 @@
 export const tronca = (str, l) => {
-    //INSERISCI QUI IL TUO CODICE
+str.touppercase()
 }
