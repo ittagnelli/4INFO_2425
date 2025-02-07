@@ -1,7 +1,7 @@
-export const reverse = (l) => {
+export const reverse = (1) => {
     let risultato = new Array(arr.length);
-    for (let i = 0; i < arr.length; i++) {
-        risultato[arr.length - 1 - i] = arr[i];
-    }
+    arr.forEach((element, index) => {
+        risultato[arr.length - 1 - index] = element;
+    });
     return risultato;
 };
