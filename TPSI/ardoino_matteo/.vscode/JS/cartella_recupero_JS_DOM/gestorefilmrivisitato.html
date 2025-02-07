@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestore di Film</title>
+    <link rel="stylesheet" href="gestorefilmrivisitato.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestore di Film</h1>
+
+        <form id="movieForm">
+            <input type="text" id="title" placeholder="Titolo" required>
+            <input type="text" id="director" placeholder="Regista" required>
+            <input type="number" id="year" placeholder="Anno di uscita" required>
+            <button type="button" id="submitButton" onclick="handleFormSubmit()">Salva Modifiche</button>
+        </form>
+
+        <div id="searchContainer">
+            <input type="text" id="search" placeholder="Cerca per titolo o regista">
+            <button id="searchButton" onclick="handleSearch()">Cerca</button>
+        </div>
+
+        <div id="movieContainer">
+            <div id="movie-1747473" class="movieCard">
+                <h3>Top Gun</h3>
+                <p>Regista: Tom Cruise</p>
+                <p>Anno: 1986</p>
+                <button class="edit" onclick="handleEdit('movie-1747473')">Modifica</button>
+                <button class="delete">Elmina</button>
+            </div>
+            <div id="movie-17949349439" class="movieCard">
+                <h3>Matrix</h3>
+                <p>Regista: Lana Wachowski</p>
+                <p>Anno: 2001</p>
+                <button class="edit" onclick="handleEdit('movie-17949349439')">Modifica</button>
+                <button class="delete">Elmina</button>
+            </div>
+        </div>
+    </div>
+    <script src="gestorefilmrivisitato.js"></script>
+</body>
+
+</html>
