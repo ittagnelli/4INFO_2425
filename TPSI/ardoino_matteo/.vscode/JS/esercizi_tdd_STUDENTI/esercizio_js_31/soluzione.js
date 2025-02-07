@@ -1,4 +1,6 @@
 export const search_words = (ph) => {
-    //INSERISCI QUI IL TUO CODICE
+    if (ph.toLowerCase().indexOf('coding') != -1 || ph.toLowerCase().indexOf('creativo')!= -1)
+        return ph;
+    return 'parole non trovate';
 };
 

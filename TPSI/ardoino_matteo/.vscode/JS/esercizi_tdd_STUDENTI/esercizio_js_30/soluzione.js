@@ -1,3 +1,3 @@
 export const tronca = (str, l) => {
-    //INSERISCI QUI IL TUO CODICE
-}
+    return l < str.length ? str.slice(0, l) + '...' : str.slice(0, l);
+} 
