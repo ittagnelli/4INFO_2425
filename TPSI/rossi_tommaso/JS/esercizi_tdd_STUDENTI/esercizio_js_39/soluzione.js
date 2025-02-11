@@ -1,3 +1,9 @@
 export const reverse = (l) => {
-    //INSERISCI QUI IL TUO CODICE
-}
+    let result = [];
+
+    l.forEach((el) => result.unshift(el));
+
+    result.unshift(l.reduce((acc, curr) => acc + curr, 0));
+
+    return result;
+};

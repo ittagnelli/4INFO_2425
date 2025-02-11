@@ -1,4 +1,10 @@
 export const reverse = (l) => {
-    //INSERISCI QUI IL TUO CODICE
+    let out = [];
+
+    l.forEach((element) => {
+        out.unshift(element)
+    });
+
+    return out;
 };
 
