@@ -1,3 +1,4 @@
 export const new_arr = (n, e) => {
-	//INSERISCI QUI IL TUO CODICE
+	let riempi = Array(n).full(e)
+	return riempi
 };
