@@ -1,4 +1,4 @@
-import { without } from "./es_43.js";
+import { without } from "./pavalean_esercizio_js_43.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 43", () => {
