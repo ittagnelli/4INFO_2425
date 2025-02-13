@@ -7,5 +7,5 @@ export const same = (arr1, arr2) => {
      else
      return false;
    
-   }
+   };
 

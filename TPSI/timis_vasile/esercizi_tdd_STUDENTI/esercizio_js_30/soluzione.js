@@ -4,4 +4,4 @@ export const tronca = (string, l) => {
         return string.slice(0, l) + '...';
     }
     return string;
-}
+};
