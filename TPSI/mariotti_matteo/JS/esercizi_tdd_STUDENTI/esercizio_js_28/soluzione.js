@@ -15,3 +15,8 @@ export const upper_case = (str) => {
     return str;
 }
 
+// let res = '';
+// for(let c of str){
+//     let code = c.charCodeAt(0);
+//     res = res.concact((code ))
+// }
