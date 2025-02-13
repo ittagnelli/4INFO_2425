@@ -1,6 +1,7 @@
-export const tronca = (str, l) => {
+export const tronca = (string, l) => {
     //INSERISCI QUI IL TUO CODICE
-    string = str.slice(0, l)
-    return str.replace(string, '...')
-
+    if (string.length > l) {
+        return string.slice(0, l) + '...';
+    }
+    return string;
 }
