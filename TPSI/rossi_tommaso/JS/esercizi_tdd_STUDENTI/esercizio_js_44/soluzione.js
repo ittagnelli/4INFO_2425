@@ -1,3 +1,3 @@
 export const ordina = (l) => {
-    //INSERISCI QUI IL TUO CODICE
+    return l.sort((a,b) => (a.title.toLowerCase() > b.title.toLowerCase() ? -1 : 1));
 };
