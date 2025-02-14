@@ -1,3 +1,8 @@
 export const swap = (l, n, m) => {
-    //INSERISCI QUI IL TUO CODICE
+    let rimosso = l.splice(n, 1);
+    if(m < 0)
+        m++;
+    l.splice(m, 0, rimosso);
+
+    return l;
 };
