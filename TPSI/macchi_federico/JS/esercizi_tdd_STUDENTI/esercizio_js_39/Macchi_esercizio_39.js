@@ -16,4 +16,11 @@ export const reverse = (l) => {
     risultato[0] = somma;
     
     return risultato;
+
+
+    //const l_reverso = l.map((_, index, arr) => arr[arr.length - 1 - index]);
+    //let somma = l.reduce((acc, current) => acc + current, 0);   
+    //l_reverso.unshift(somma)
+    //return l_reverso
+    //versione con nuova roba
 };
