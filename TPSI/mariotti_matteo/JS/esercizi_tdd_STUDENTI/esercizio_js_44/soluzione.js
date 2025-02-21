@@ -1,4 +1,4 @@
 export const ordina = (l) => {
-    l.sort((a, b) => a - b);
-    return l;
-};
+    let libri_ordinati = l.sort((libro1, libro2) => libro2.title.localeCompare(libro1.title));
+    return libri_ordinati;
+}; 
