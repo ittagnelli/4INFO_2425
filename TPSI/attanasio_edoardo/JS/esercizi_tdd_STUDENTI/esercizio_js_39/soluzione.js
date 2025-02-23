@@ -1,12 +1,6 @@
 export const reverse = (l) => {
-    //INSERISCI QUI IL TUO CODICE
-
-    let out = []
-    let sum = 0
-    l.forEach((item, index) => {
-        out.unshift(item)
-        sum += item
-    });
-    out.unshift(sum)
-    return out
+    let lReverse = []
+    l.map((item) => lReverse.unshift(item))
+    lReverse.splice(0,0,lReverse.reduce((acc, current) => acc += current, 0))
+    return lReverse 
 };
