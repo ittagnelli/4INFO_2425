@@ -1,3 +1,5 @@
 export const sub_arr = (l, n) => {
-    return l.splice(l.length - n, l.length);
+    //INSERISCI QUI IL TUO CODICE
 }
+
+
