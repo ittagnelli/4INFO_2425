@@ -1,3 +1,10 @@
 export const map_arr = (l, n) => {
-    return l.map(num => num % n == 0 ? num = 0 : num);
+    l = l.map(num => {
+        if(num % n == 0)
+            num = 0;
+        else
+            return num;
+    })
+
+    return l;
 };
