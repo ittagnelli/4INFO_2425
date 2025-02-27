@@ -1,3 +1,3 @@
 export const order = (l) => {
-   //INSERISCI QUI IL TUO CODICE
+   return l.sort((a, b) => (Array(2, a - 1).every((value) => a % value != 0)) ? -1 : 1);
 };

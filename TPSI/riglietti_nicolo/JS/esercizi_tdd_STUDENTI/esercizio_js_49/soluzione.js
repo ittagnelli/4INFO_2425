@@ -1,3 +1,3 @@
 export const map_arr = (l, n) => {
-    //INSERISCI QUI IL TUO CODICE
+    return l.filter(numero => numero % n != 0)
 };

@@ -1,3 +1,5 @@
 export const reverse = (l) => {
-    //INSERISCI QUI IL TUO CODICE
+    l.reverse();
+    l.unshift(l.reduce((acc, current) => acc + current, 0));
+    return l;
 }

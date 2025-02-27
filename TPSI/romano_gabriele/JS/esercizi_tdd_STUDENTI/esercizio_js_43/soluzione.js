@@ -1,3 +1,8 @@
 export const without = (l, n) => {
-    //INSERISCI QUI IL TUO CODICE
+    if(l.includes(n)) {
+        let indice = l.findIndex(num => num == n);
+        l.splice(indice, 1);
+    }
+
+    return l;
 };

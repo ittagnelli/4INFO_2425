@@ -1,4 +1,11 @@
 export const reverse = (l) => {
-    //INSERISCI QUI IL TUO CODICE
+
+    let array = [];
+
+    l.forEach((numero, i) => {
+        array[l.length - 1 - i] = numero;
+    });
+
+    return array;
 };
 
