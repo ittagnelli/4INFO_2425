@@ -1,4 +1,9 @@
 export const search_words = (ph) => {
-    //INSERISCI QUI IL TUO CODICE
+    let check = ph.includes("coding") || ph.includes("creativo") ? true : false;
+
+    if(check)
+        return ph;
+    else
+        return "parole non trovate";
 };
 

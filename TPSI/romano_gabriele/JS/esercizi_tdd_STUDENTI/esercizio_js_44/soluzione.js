@@ -1,3 +1,5 @@
 export const ordina = (l) => {
-    //INSERISCI QUI IL TUO CODICE
+    let sorted = l.sort((b1, b2) => b2.title - b1.title);
+
+    return sorted;
 };
