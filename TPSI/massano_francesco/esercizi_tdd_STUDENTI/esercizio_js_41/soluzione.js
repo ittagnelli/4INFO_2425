@@ -1,3 +1,5 @@
 export const new_arr = (n, e) => {
-	//INSERISCI QUI IL TUO CODICE
+	n = parseInt(n);
+	let array = Array(n).fill(e);
+	return array;
 };

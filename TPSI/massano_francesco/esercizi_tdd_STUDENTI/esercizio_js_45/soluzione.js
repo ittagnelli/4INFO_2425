@@ -1,3 +1,6 @@
 export const only_upper = (s) => {
-    //INSERISCI QUI IL TUO CODICE
+    s = Array.from(s);
+    let maiuscole = s.filter((lettera) => lettera != lettera.toLowerCase());
+    return maiuscole.filter((item) => item != ' ');
+
 };

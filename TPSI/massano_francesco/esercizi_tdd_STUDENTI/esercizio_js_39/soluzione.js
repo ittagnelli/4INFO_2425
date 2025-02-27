@@ -1,3 +1,11 @@
 export const reverse = (l) => {
-    //INSERISCI QUI IL TUO CODICE
+    let somma = 0;
+    let risultato = [];
+    l.forEach(n => {
+        risultato.unshift(n);
+        somma += n;
+    });
+
+    risultato.unshift(somma);
+    return risultato;
 }
