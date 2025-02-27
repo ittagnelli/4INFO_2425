@@ -1,3 +1,3 @@
-export const no_copies = (array) => {
-   //INSERISCI QUI IL TUO CODICE
+export const no_copies = (array) => { 
+   return [...new Set(array)];
 }

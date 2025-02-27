@@ -1,3 +1,3 @@
 export const map_arr = (l, n) => {
-    //INSERISCI QUI IL TUO CODICE
+    return l.map(num => num % n === 0 ? 0 : num);
 };
