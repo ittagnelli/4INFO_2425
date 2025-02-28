@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://tpsi.mancusoa.it/support/4/js/carrello_js_template.html -->
+<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="icone.css"> -->
+    <link rel="stylesheet" href="Macchi_carrello_js_08.css">
+    <title>Carrello JS</title>
+</head>
+<body>
+    <h1 class="main-title">Carrello JS</h1>
+    <table id="carrello">
+        <tbody><tr>
+            <th>Prodotto</th>
+            <th>Quantità</th>
+            <th>Costo</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr id="rif">
+            <td><input id="prodoo" type="text" size="30"></td>
+            <td><input id="qty" type="number" min="1"></td>
+            <td><input id="costo" type="number" min="1"></td>
+            <td>
+                <span class="material-icons icon" onclick="add()">add</span>
+            </td>
+            <td>
+                <span class="material-icons icon" onclick="somma()">functions</span>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td>USB Stick</td>
+            <td><input id="qty_1" type="number" min="1" value="2"></td>
+            <td>3.99 €</td>
+            <td class="importo">7.98 €</td>
+            <td><span class="material-icons icon-remove">remove_shopping_cart</span></td>
+        </tr>
+        <tr>
+            <td>SSD 1TB</td>
+            <td><input id="qty_2" type="number" min="1" value="1"></td>
+            <td>56 €</td>
+            <td class="importo">56 €</td>
+            <td><span class="material-icons icon-remove">remove_shopping_cart</span></td>
+        </tr>
+        <tr>
+            <td>Cavo USB-C</td>
+            <td><input id="qty_3" type="number" min="1" value="5"></td>
+            <td>1.99 €</td>
+            <td class="importo">9.95 €</td>
+            <td><span class="material-icons icon-remove">remove_shopping_cart</span></td>
+        </tr>
+        <tr>-->
+            <td colspan="4">
+                <hr>
+            </td>
+        </tr> 
+        <tr>
+            <td colspan="3">TOTALE</td>
+            <td id="totale"></td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+    <script src="Macchi_carrello_js_08.js"></script>
+</html>

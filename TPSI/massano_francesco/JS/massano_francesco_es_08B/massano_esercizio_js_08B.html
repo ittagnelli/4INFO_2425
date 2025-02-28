@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="massano_esercizio_js_08B.css">
+    <script src="massano_esercizio_js_08B.js"></script>
+    <title>Carrello JS</title>
+</head>
+
+<body>
+    <h1 class="main-title">Carrello JS</h1>
+    <table id="carrello">
+        <tr>
+            <th>Prodotto</th>
+            <th>Quantità</th>
+            <th>Costo</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input id="prodoo" type="text" size="30" /></td>
+            <td><input id="qty" type="number" min="1" /></td>
+            <td><input id="costo" type="number" min="1" /></td>
+            <td>
+                <span onclick="addToCart()" class="material-icons icon">add</span>
+            </td>
+            <td>
+                <span onclick="somma()" class="material-icons icon">functions</span>
+            </td>
+        </tr>
+        <tr>
+            <td>USB Stick</td>
+            <td><input onchange="calcolaImporto('importo_1', '3.99')" id="qty_1" type="number" min="1" value="2" /></td>
+            <td class="costo">3.99</td>
+            <td id="importo_1" class="importo costo">7.98</td>
+            <td><span onclick="rimuovi('qty_1')" class="material-icons icon-remove">remove_shopping_cart</span></td>
+        </tr>
+        <tr>
+            <td>SSD 1TB</td>
+            <td><input onchange="calcolaImporto('importo_2', '56')" id="qty_2" type="number" min="1" value="1" /></td>
+            <td class="costo">56</td>
+            <td id="importo_2" class="importo costo">56</td>
+            <td><span onclick="rimuovi('qty_2')" class="material-icons icon-remove">remove_shopping_cart</span></td>
+        </tr>
+        <tr>
+            <td>Cavo USB-C</td>
+            <td><input onchange="calcolaImporto('importo_3', '1.99')" id="qty_3" type="number" min="1" value="5" /></td>
+            <td class="costo">1.99</td>
+            <td id="importo_3" class="importo costo">9.95</td>
+            <td><span onclick="rimuovi('qty_3')" class="material-icons icon-remove">remove_shopping_cart</span></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">TOTALE</td>
+            <td id="totale">73.93;</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
