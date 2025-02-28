@@ -6,6 +6,15 @@ export const reverse = (l) => {
 }
 
 
+    
+// export const reverse = (l) => {
+//     let res = []
+//     l.map(item=> res.unshift(item))
+//     res.unshift(l.reduce((acc, current) => acc + current, 0))
+//     return res;
+// }
+
+
 // export const reverse = (l) => {
 //     let array = [];
 //     let e = 0;

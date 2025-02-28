@@ -1,11 +1,7 @@
-export const moveElement = (arr, N, M) => {
-    if (N < 0 || N >= arr.length || M < 0 || M >= arr.length) {
-        return arr;
-    }
-
-    const element = arr.splice(N, 1)[0];
-
-    arr.splice(M, 0, element);
-
-    return arr;
-};
+export const swap = (l, n, m) => {
+    if (n < 0 || n >= l.length || m < 0 || m >= l.length) return l;
+    
+    [l[n], l[m]] = [l[m], l[n]];
+    return l;
+  };
+  

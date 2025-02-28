@@ -1,3 +1,3 @@
 export const no_copies = (array) => {
-   //INSERISCI QUI IL TUO CODICE
+   return array.filter((element, index, self) =>  self.indexOf(element) === index);
 }

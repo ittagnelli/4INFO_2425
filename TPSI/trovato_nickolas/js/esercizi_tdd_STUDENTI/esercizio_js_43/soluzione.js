@@ -1,3 +1,4 @@
-export const removeNumber = (arr, N) => {
-    return arr.filter(item => item !== N);
+export const without = (l, n) => {
+    return l.filter(value => value !== n);
 };
+  

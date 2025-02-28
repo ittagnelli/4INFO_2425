@@ -1,3 +1,3 @@
-export const createArray = (N, C) => {
-    return new Array(N).fill(C);
+export const new_arr = (n, e) => {
+	return Array(n).fill(e);
 };
