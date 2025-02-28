@@ -1,3 +1,3 @@
 export const gen_arr = (len) => {
-    //INSERISCI QUI IL TUO CODICE
+    return Array(len).map(value => value = Math.floor(Math.random()));
 };
