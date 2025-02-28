@@ -1,3 +1,3 @@
 export const only_upper = (s) => {
-    return str.split('').filter(char => char === char.toUpperCase())
-};
+    return s.split('').filter(char => char >= 'A' && char <= 'Z');
+};  
