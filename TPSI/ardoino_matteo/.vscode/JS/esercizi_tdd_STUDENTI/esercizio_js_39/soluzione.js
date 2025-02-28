@@ -1,3 +1,6 @@
-export const reverse = (l) => {
-    //INSERISCI QUI IL TUO CODICE
+function somma(array) {
+    let nuovoArray = [];
+    nuovoArray = array .map((item) => array.unshift(item));
+    return newArray;
+
 }
