@@ -1,3 +1,3 @@
 export const no_copies = (array) => {
-   return [...new Set(array)]
+   return array.filter((a, b) => array.indexOf(a) === b)
 }
