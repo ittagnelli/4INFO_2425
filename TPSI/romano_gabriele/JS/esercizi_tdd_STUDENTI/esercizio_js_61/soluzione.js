@@ -1,4 +1,4 @@
-function count_occurence(text) {
+export function count_occurence(text) {
   let mappa = new Map();
   text.split(' ').forEach(word => {
     let occorrenze = text.split(' ').reduce((acc, current) => word == current ? acc + 1 : acc, 0);
@@ -6,7 +6,5 @@ function count_occurence(text) {
     mappa.set(word, occorrenze);
   });
 
-  console.log(mappa);
+  return mappa;
 }
-
-console.log(count_occurence("JavaScript è un linguaggio molto bello. JavaScript è un linguaggio di alto livello"));
