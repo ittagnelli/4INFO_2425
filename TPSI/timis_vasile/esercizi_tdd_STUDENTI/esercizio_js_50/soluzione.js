@@ -11,5 +11,5 @@ export const order = (l) => {
            isPrime && arr.unshift(arr.splice(arr.indexOf(num), 1)[0]);
        }
    });
-   return l; // Restituisce direttamente l'array modificato
-};
+   return l;  // era meglio fare reduce ricordiarsi per i primi e non primi
+};  // reduce cmq restituisce 1 valore , quindi true o false con reduce va benissimo
