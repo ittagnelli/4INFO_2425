@@ -13,4 +13,3 @@ export function is_anagram(arr) {
     return arr.filter((word, index) => !duplicates.has(sortedWords[index]));
 }
 
-soluzione.js
