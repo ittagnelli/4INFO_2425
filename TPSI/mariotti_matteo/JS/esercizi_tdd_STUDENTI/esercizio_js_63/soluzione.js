@@ -1,3 +1,4 @@
 export const unique_characters = (str) => {
-    //INSERISCI QUI IL TUO CODICE
+    const uniqueChars = new Set(str);
+    return Array.from(uniqueChars).join('');
 }
