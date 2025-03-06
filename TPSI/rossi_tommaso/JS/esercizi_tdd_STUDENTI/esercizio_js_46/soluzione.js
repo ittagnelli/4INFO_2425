@@ -1,4 +1,4 @@
 export const prod_pow2 = (n) => {
-   //INSERISCI QUI IL TUO CODICE
+   return n.reduce((acc, num) => acc * num**2, 1)
 };
 
