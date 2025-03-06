@@ -1,3 +1,6 @@
 export function deduplicate(arr) {
-    //INSERISCI QUI IL TUO CODICE
+   let arrayNoDuplicati = new Set(arr);
+   return Array.from(arrayNoDuplicati);
+    
+    
 }
