@@ -1,9 +1,9 @@
 export const unique_characters = (str) => {
-    let uniqueChars = new Set();
+    let set = new Set();
     let result = ''; // array vuoto
     for (let char of str) {
-        if (!uniqueChars.has(char)) {
-            uniqueChars.add(char);
+        if (!set.has(char)) {
+            set.add(char);
             result += char;
         }
     }
