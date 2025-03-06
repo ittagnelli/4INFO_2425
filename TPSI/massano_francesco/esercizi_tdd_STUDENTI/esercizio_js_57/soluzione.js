@@ -1,3 +1,5 @@
 export const names = (studenti) => {
-   //INSERISCI QUI IL TUO CODICE
+   let arrayNomi = [];
+   studenti.map((item) => arrayNomi.push(item.nome));
+   return arrayNomi;
 }

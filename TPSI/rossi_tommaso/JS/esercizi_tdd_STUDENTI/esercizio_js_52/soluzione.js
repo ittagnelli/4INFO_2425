@@ -1,3 +1,3 @@
 export const psw_gen = (len) => {
-    //INSERISCI QUI IL TUO CODICE
+    return Array.from({ length: 7 }, () => len[Math.floor(Math.random() * len.length)]);
 };
