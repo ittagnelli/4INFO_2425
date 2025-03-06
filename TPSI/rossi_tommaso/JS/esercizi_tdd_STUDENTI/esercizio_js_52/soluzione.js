@@ -1,3 +1,4 @@
 export const psw_gen = (len) => {
-    return Array.from({ length: 7 }, () => len[Math.floor(Math.random() * len.length)]);
+    let charachters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+    return Array(len).fill(charachters[Math.floor(Math.random() * charachters.length)])
 };
