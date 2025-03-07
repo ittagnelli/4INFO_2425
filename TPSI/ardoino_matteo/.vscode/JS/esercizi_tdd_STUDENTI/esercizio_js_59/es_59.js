@@ -1,1 +1,3 @@
-soluzione.js
+function removeDuplicati(arr) {
+    return [...new Set(arr)];
+}
