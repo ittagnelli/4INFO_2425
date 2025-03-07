@@ -1,5 +1,5 @@
 export function count_occurence(text) {
-   const words = text.toLowerCase().match(/\b\w+\b/g);
+   const words = text.toLowerCase().split(' ');
    const wordMap = new Map();
 
    if (words) {
