@@ -1,4 +1,4 @@
-import {sub_arr} from './es_47.js';
+import {sub_arr} from './pavalean_esercizio_js_47.js';
 import fs from 'fs';
 
 describe("ESERCIZIO 47", () => {

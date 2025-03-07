@@ -1,4 +1,4 @@
-import { avg_age } from "./es_56.js";
+import { avg_age } from "./pavalean_esercizio_js_56.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 56", () => {

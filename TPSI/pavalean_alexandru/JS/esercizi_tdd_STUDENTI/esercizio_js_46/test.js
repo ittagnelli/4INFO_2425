@@ -1,4 +1,4 @@
-import { prod_pow2 } from './es_46.js'
+import { prod_pow2 } from './pavalean_esercizio_js_46.js'
 import fs from 'fs';
 
 describe("ESERCIZIO 46", () => {

@@ -1,4 +1,4 @@
-import { sub_arr } from "./es_48.js";
+import { sub_arr } from "./pavalean_esercizio_js_48.js";
 
 describe("ESERCIZIO 48", () => {
     test('TEST 01', () => {
