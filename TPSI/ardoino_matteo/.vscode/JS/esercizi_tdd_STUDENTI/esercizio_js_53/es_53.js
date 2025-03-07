@@ -5,4 +5,4 @@ function invertiSottoArray(array, M) {
     const secondaParteInvertita = secondaParte.reverse();
     return secondaParteInvertita.concat(primaParteInvertita);
   }
-  
+    
