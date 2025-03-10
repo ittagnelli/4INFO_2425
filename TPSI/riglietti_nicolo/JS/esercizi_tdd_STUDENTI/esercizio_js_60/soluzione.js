@@ -7,3 +7,11 @@ export function is_anagram(arr) {
 
     return Array.from(new Set(arr.map(parola =>  parole.get([...parola.toLowerCase()].sort().join('')).length > 1 ? parole.get([...parola.toLowerCase()].sort().join('')).at(-1) : parola)));
 }  
+
+// let map = new Map
+// 
+//     for(let word of arr){
+//         let sorted = word.toLowerCase().split('').sort().join('');
+//     }
+// 
+//     return Array.from(map.values())
