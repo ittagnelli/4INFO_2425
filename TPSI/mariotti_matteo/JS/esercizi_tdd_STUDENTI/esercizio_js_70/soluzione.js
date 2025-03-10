@@ -1,3 +1,23 @@
 export class Calcolatrice {
- //INSERISCI QUI IL TUO CODICE
+    constructor(l){
+        this.valore_finale = l;
+    }
+
+    get addizione() {
+        this.valore_finale = this.valore_finale 
+    }
+    
+    get sottrazione(){
+        this.valore_finale = this.valore_finale
+    }
+
+    get divisione(){
+        this.valore_finale = this.valore_finale
+    }
+
+    get moltiplicazione(){
+        this.valore_finale = this.valore_finale 
+
+    }
 }
+ 
