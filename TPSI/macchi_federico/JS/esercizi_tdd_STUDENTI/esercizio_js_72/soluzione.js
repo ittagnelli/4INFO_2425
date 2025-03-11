@@ -13,5 +13,9 @@ export class Docente {
 }
 
 export const confrontaOBJ = (obj1, obj2) => {
-  return JSON.stringify(obj1) == JSON.stringify(obj2) || JSON.stringify(obj1) == JSON.stringify(obj2)
+ 
+
+  if (obj1.constructor !== obj2.constructor) {return false};
+  return JSON.stringify(obj1) === JSON.stringify(obj2);
+
 };
