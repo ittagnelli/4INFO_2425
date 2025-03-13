@@ -28,3 +28,4 @@ function Submit() {
     let user = new User(nome, cognome, età, colorecapelli);
     user.descrivi();
 }
+    
