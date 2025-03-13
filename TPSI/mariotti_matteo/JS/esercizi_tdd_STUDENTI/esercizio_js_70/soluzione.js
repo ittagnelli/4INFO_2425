@@ -1,23 +1,37 @@
 export class Calcolatrice {
-    constructor(l){
+    constructor(l) {
         this.valore_finale = l;
     }
 
     get addizione() {
-        this.valore_finale = this.valore_finale 
-    }
-    
-    get sottrazione(){
-        this.valore_finale = this.valore_finale
-    }
-
-    get divisione(){
-        this.valore_finale = this.valore_finale
+        return (valore) => {
+            this.valore_finale += valore;
+            return this;
+        };
     }
 
-    get moltiplicazione(){
-        this.valore_finale = this.valore_finale 
+    get sottrazione() {
+        return (valore) => {
+            this.valore_finale -= valore;
+            return this;
+        };
+    }
 
+    get divisione() {
+        return (valore) => {
+            this.valore_finale /= valore;
+            return this;
+        };
+    }
+
+    get moltiplicazione() {
+        return (valore) => {
+            this.valore_finale *= valore;
+            return this;
+        };
+    }
+
+    risultato() {
+        return this.valore_finale;
     }
 }
- 
