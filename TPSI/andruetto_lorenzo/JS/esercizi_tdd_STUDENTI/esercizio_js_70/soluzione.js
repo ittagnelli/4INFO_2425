@@ -1,11 +1,12 @@
 export class Calcolatrice {
     //INSERISCI QUI IL TUO CODICE
-    constructor (ris) { let set_result = ris }
+    constructor () { this.num = 0 }
     
-    set set_result(ris) { this.result = ris }
-    get get_result() { return this.result }
-    sum (num) { return this.result + num }
-    sub (num) { return this.result - num }
-    mul (num) { return this.result * num }
-    div (num) { return this.result / num }
+    set_result(ris) { this.num = ris; return this; }
+    sum (num) { this.num += num; return this; }
+    sub (num) { this.num -= num; return this; }
+    mul (num) { this.num *= num; return this; }
+    div (num) { this.num /= num; return this; }
+
+    get_result() { return this.num }
 }
