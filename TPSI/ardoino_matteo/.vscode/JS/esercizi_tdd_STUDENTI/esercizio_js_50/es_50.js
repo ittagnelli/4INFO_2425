@@ -9,7 +9,7 @@ function Primo(num) {
   
   function ordinaNumeriPrimi(array) {
     const numeriPrimi = array.filter(èPrimo);
-    const altriNumeri = array.filter(num => !èPrimo(num));
+    const altriNumeri = array.filter(num => !Primo(num));
     return [...numeriPrimi, ...altriNumeri];
   }
   
