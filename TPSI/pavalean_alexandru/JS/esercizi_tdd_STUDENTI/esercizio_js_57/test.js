@@ -1,4 +1,4 @@
-import { names } from "./es_57.js";
+import { names } from "./pavalean_esercizio_js_57.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 57", () => {

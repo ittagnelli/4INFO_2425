@@ -1,4 +1,4 @@
-import { between } from "./es_58.js";
+import { between } from "./pavalean_esercizio_js_58.js";
 import fs from 'fs';
 
 describe("ESERCIZIO 58", () => {
