@@ -28,7 +28,6 @@ function show_data() {
 
     class User {
         constructor(nome, cognome, eta, coloreCapelli){
-            // [this.nome, this.cognome, this.eta, this.coloreCapelli] = nome, cognome, eta, coloreCapelli;
             this.nome = nome;
             this.cognome = cognome;
             this.eta = eta;
@@ -38,8 +37,7 @@ function show_data() {
         descrivi() {
             let p = createElementsP();
             let dati = getById('dati');
-            dati.innerText = '';
-
+            
             p.innerText = `Ciao, io sono l'utente ${this.nome} ${this.cognome}, ho ${this.eta} anni e i miei capelli sono ${this.coloreCapelli}`;
             console.log(`Ciao, io sono l'utente ${this.nome} ${this.cognome}, ho ${this.eta} anni e i miei capelli sono ${this.coloreCapelli}`)
 
