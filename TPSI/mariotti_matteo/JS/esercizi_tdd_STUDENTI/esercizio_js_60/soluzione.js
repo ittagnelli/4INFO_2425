@@ -5,5 +5,6 @@ export function is_anagram(arr) {
     // return Array.from(new Set(arr));
     // return arr.filter((word, _, self) => self.filter(w => w.split('').sort().join('') === word.split('').sort().join('')).length === 1);
     
+    
 }
 
