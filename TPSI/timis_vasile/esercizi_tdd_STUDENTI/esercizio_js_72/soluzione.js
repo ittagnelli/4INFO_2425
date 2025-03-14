@@ -1,11 +1,23 @@
 export class Studente {
-  //INSERISCI QUI IL TUO CODICE
+  constructor(nome, eta) {
+    this.nome = nome;
+    this.eta = eta;
+  }
 }
 
 export class Docente {
-  //INSERISCI QUI IL TUO CODICE
+  constructor(nome, eta) {
+    this.nome = nome;
+    this.eta = eta;
+  }
 }
 
 export const confrontaOBJ = (obj1, obj2) => {
-  //INSERISCI QUI IL TUO CODICE
+  return JSON.stringify(obj1) === JSON.stringify(obj2); // confronto
 };
+
+let studente = new Studente("Timis", 17);
+let docente = new Docente("Paolo", 43);
+
+
+console.log(confrontaOBJ(studente,docente));
