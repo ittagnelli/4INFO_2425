@@ -7,11 +7,20 @@
 </head>
 <body>
     <form action="" id="registrazione">
-        <input type="text" name="nome" id="nome" placeholder="nome">
-        <input type="text" name="cognome" id="cognome" placeholder="cognome">
-        <input type="number" name="eta" id="eta" placeholder="eta">
-        <input type="text" name="capelli" id="capelli" placeholder="colore capelli">
-        <input type="submit" value="submit" onclick="process_form()">
+        <input type="text" name="nome" id="nome" placeholder="nome" required>
+        <input type="text" name="cognome" id="cognome" placeholder="cognome" required>
+        <input type="number" name="eta" id="eta" placeholder="eta" required>
+        <input type="text" name="capelli" id="capelli" placeholder="colore capelli" required>
+        <input type="submit" value="Submit" onclick="process_form()">
     </form>
+
+    <h2>Dati:</h2>
+    <div id="dati"></div>
+
+    <h2>Dati chiave - valore (senza età e colore dei capelli):</h2>
+    <div id="dati2"></div>
+    
+
+    <script src="es_73.js"></script>
 </body>
 </html>
