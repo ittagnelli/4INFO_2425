@@ -1,11 +1,15 @@
 export class Studente {
-  //INSERISCI QUI IL TUO CODICE
+  constructor(nome, classe){
+    this.nome = nome
+    this.classe = classe
+  }
 }
-
 export class Docente {
-  //INSERISCI QUI IL TUO CODICE
+  constructor(nome, classe){
+    this.nome = nome
+    this.classe = classe
+  }
 }
-
-export const confrontaOBJ = (obj1, obj2) => {
-  //INSERISCI QUI IL TUO CODICE
+export const confrontaOBJ = (a, b) => { 
+  return a.constructor === b.constructor && a.nome === b.nome && a.classe === b.classe 
 };
