@@ -1,27 +1,61 @@
 export class Poligono {
-   //INSERISCI QUI IL TUO CODICE
+   constructor(lato, numLati) {
+       this.lato = lato;
+       this.numLati = numLati;
+   }
+   perimetro() {
+       return this.lato * this.numLati;
+   }
+   area() {
+       return (this.numLati * Math.pow(this.lato, 2)) / (4 * Math.tan(Math.PI / this.numLati));
+   }
 }
 
 export class Quadrato extends Poligono {
-   //INSERISCI QUI IL TUO CODICE
+   constructor(lato) {
+       super(lato, 4);
+   }
 }
 
 export class TriangoloEquilatero extends Poligono {
-   //INSERISCI QUI IL TUO CODICE
+   constructor(lato) {
+       super(lato, 3);
+   }
 }
 
 export class Pentagono extends Poligono {
-   //INSERISCI QUI IL TUO CODICE
+   constructor(lato) {
+       super(lato, 5);
+   }
 }
 
 export class Esagono extends Poligono {
-   //INSERISCI QUI IL TUO CODICE
+   constructor(lato) {
+       super(lato, 6);
+   }
 }
 
 export class Ettagono extends Poligono {
-   //INSERISCI QUI IL TUO CODICE
+   constructor(lato) {
+       super(lato, 7);
+   }
 }
 
 export class Ottagono extends Poligono {
-   //INSERISCI QUI IL TUO CODICE
+   constructor(lato) {
+       super(lato, 8);
+   }
 }
+
+const poligoni = [
+   new TriangoloEquilatero(15),
+   new Quadrato(10),
+   new Pentagono(21),
+   new Esagono(18),
+   new Ettagono(9),
+   new Ottagono(12)
+];
+
+poligoni.forEach(p => {
+   console.log(`Poligono con ${p.numLati} lati di lunghezza ${p.lato} cm: perimetro = ${p.perimetro()} cm, area = ${p.area().toFixed(2)} cm²`);
+});
