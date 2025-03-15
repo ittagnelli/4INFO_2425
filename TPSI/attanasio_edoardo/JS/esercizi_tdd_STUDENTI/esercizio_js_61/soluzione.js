@@ -8,7 +8,7 @@ export function count_occurence(text) {
 //    }
 //    return map;
 
-    let atext = text.split('')
+    let atext = text.toLowerCase().split('')
     let occorrenze = new Map()
 
     atext.forEach(parola => {

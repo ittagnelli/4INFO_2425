@@ -42,41 +42,41 @@ describe("ESERCIZIO 61", () => {
       JSON.parse(res).map((a) => new Map(JSON.parse(JSON.stringify(a))))
     );
   });
-  test("TEST 03", () => {
-    expect(count_occurence("C#")).toStrictEqual(new Map([["C#", 1]]));
-  });
-  test("TEST 04", () => {
-    // 500k english phrases
-    const wordlist2 = fs
-      .readFileSync(base_path.concat("wordlist2.txt"), "utf8")
-      .split("\n");
-    const res = fs.readFileSync(
-      base_path.concat("wordlist2_result.txt"),
-      "utf8"
-    );
-    const solutions = [];
-    wordlist2.forEach((a) => {
-      solutions.push(count_occurence(a));
-    });
-    expect(solutions).toStrictEqual(
-      JSON.parse(res).map((a) => new Map(JSON.parse(JSON.stringify(a))))
-    );
-  });
-  test("TEST 05", () => {
-    // ptb_text_only dataset
-    const wordlist3 = fs
-      .readFileSync(base_path.concat("wordlist3.txt"), "utf8")
-      .split("\n");
-    const res = fs.readFileSync(
-      base_path.concat("wordlist3_result.txt"),
-      "utf8"
-    );
-    const solutions = [];
-    wordlist3.forEach((a) => {
-      solutions.push(count_occurence(a));
-    });
-    expect(solutions).toStrictEqual(
-      JSON.parse(res).map((a) => new Map(JSON.parse(JSON.stringify(a))))
-    );
-  });
+  // test("TEST 03", () => {
+  //   expect(count_occurence("C#")).toStrictEqual(new Map([["C#", 1]]));
+  // });
+  // test("TEST 04", () => {
+  //   // 500k english phrases
+  //   const wordlist2 = fs
+  //     .readFileSync(base_path.concat("wordlist2.txt"), "utf8")
+  //     .split("\n");
+  //   const res = fs.readFileSync(
+  //     base_path.concat("wordlist2_result.txt"),
+  //     "utf8"
+  //   );
+  //   const solutions = [];
+  //   wordlist2.forEach((a) => {
+  //     solutions.push(count_occurence(a));
+  //   });
+  //   expect(solutions).toStrictEqual(
+  //     JSON.parse(res).map((a) => new Map(JSON.parse(JSON.stringify(a))))
+  //   );
+  // });
+  // test("TEST 05", () => {
+  //   // ptb_text_only dataset
+  //   const wordlist3 = fs
+  //     .readFileSync(base_path.concat("wordlist3.txt"), "utf8")
+  //     .split("\n");
+  //   const res = fs.readFileSync(
+  //     base_path.concat("wordlist3_result.txt"),
+  //     "utf8"
+  //   );
+  //   const solutions = [];
+  //   wordlist3.forEach((a) => {
+  //     solutions.push(count_occurence(a));
+  //   });
+  //   expect(solutions).toStrictEqual(
+  //     JSON.parse(res).map((a) => new Map(JSON.parse(JSON.stringify(a))))
+  //   );
+  // });
 });

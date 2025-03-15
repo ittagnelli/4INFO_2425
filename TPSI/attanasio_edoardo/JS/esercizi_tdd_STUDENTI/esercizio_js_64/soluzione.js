@@ -4,7 +4,7 @@ export const count_vocals = (str) => {
     let vocali = ['a', 'e', 'i', 'o', 'u'];
     
     str.split('').forEach(carattere => {
-        vocali.includes(carattere) ? mappa.set(carattere, (mappa.get(carattere) || 0) + 1) : '';     
+        vocali.includes(carattere.toLowerCase()) ? mappa.set(carattere.toLowerCase(), (mappa.get(carattere.toLowerCase()) || 0) + 1) : '';     
     });    
     return mappa
 }

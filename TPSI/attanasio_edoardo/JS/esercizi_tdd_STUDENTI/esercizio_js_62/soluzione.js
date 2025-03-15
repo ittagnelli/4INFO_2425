@@ -4,5 +4,5 @@ export const unique_random_numbers = (n, m) => {
    while(numeri.size < n )
       numeri.add(Math.floor(Math.random() * m) + 1);
 
-   return Array.from(numeri).sort((s1, s2) => s2.eta - s1.eta)
+   return Array.from(numeri).sort()
 }
