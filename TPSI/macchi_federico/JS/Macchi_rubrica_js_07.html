@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="rubrica_js_template_files/icon.css">
+        <link rel="stylesheet" href="rubrica_js_template_files/css2.css">
+        <link rel="stylesheet" href="rubrica_js_template_files/rubrica_js_template.css">
+        <script type="text/javascript" src="rubrica_js_template.css"></script>
+        <title>Rubrica JS</title>
+    </head>
+    <body>
+        <h1 class="main-title">Rubrica JS</h1>
+            <table id="tabella">
+                <tbody><tr>
+                    <th>Cognome</th>
+                    <th>Nome</th>
+                    <th>Indirizzo</th>
+                    <th>Telefono</th>
+                    <th colspan="2">Azioni</th>
+                </tr>
+                <tr class="inputx">
+                    <td><input id="cognome" type="text" placeholder="Cognome"/></td>
+                    <td><input id="nome" type="text" placeholder="Nome"/></td>
+                    <td><input id="indirizzo" type="text" placeholder="Indirizzo"/></td>
+                    <td><input id="numero" type="number" placeholder="Telefono"/></td>
+                    <td>
+                        <button onclick="cerca()">Cerca</button>
+                    </td>
+                    <td>
+                        <button onclick="add()">Salva</button>
+                    </td>
+                    <td>
+                        <button onclick="agg()">Aggiorna</button>
+                    </td>
+                
+                    
+            </tbody></table>        
+    
+
+</body>
+<script src="rubrica_js_template.js"></script>
+</html>
