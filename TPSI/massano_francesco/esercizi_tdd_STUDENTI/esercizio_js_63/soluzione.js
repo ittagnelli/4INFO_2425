@@ -1,3 +1,6 @@
 export const unique_characters = (str) => {
-    //INSERISCI QUI IL TUO CODICE
+    let arr = new Set(str.split(''));
+    let arrayNoDuplicati = Array.from(arr);
+    arrayNoDuplicati.join('');
+    return arrayNoDuplicati;
 }

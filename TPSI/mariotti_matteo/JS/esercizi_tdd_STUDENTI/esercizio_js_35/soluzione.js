@@ -1,3 +1,7 @@
 export const tronca = (s, n) => {
-    //INSERISCI QUI IL TUO CODICE
+    const words = s.split(' ');
+    if (words.length <= n) {
+        return s;
+    }
+    return words.slice(0, n).join(' ');
 };

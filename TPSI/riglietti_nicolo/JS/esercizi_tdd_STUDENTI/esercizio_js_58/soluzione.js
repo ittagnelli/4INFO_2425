@@ -1,3 +1,3 @@
 export const between = (arr, a, b) => {
-   //INSERISCI QUI IL TUO CODICE
-  }
+   return arr.filter(numero => numero >= a && numero <= b)
+}
