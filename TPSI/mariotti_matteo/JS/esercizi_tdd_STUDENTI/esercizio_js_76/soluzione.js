@@ -1,3 +1,7 @@
 export class Orario {
-    //INSERISCI QUI IL TUO CODICE
+    constructor(ore, minuti, secondi) {
+        this.h = ore;
+        this.m = minuti;
+        this.s = secondi;
+    }
 }
