@@ -1,7 +1,7 @@
 export class Automobile {
 
 
-  constructor(capacita) {
+  constructor() {
 
 
 
