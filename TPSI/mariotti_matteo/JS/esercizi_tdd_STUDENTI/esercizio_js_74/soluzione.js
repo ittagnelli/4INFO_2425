@@ -1,3 +1,22 @@
 export class Automobile {
-    //INSERISCI QUI IL TUO CODICE
+    constructor(marca, veicolo, cavalli, cilindrata, colore) {
+        this.marca = marca;
+        this.veicolo = veicolo;
+        this.cavalli = cavalli;
+        this.cilindrata = cilindrata;
+        this.colore = colore;
+
+    }
+
+    getColore() {
+        return this.colore;
+    }
+
+    getVeicolo() {
+        return this.veicolo;
+    }
+
+    getMarca() {
+        return this.marca;
+    }
 }
