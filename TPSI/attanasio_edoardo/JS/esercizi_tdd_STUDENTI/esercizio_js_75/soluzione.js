@@ -3,7 +3,6 @@ class Enumera {
         return Object.keys(this);
     }
 }
-
 export class Animale extends Enumera {
     constructor(specie, nome, eta) {
         super();
