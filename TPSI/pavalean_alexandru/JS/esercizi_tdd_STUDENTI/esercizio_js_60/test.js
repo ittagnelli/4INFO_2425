@@ -1,4 +1,4 @@
-import { is_anagram } from "./es_60.js";
+import { is_anagram } from "./pavalean_esercizio_js_60.js";
 
 describe("ESERCIZIO 60", () => {
   test("TEST 01", () => {
