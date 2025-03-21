@@ -57,5 +57,10 @@ const poligoni = [
 ];
 
 poligoni.forEach(p => {
-   console.log(`Poligono con ${p.numLati} lati di lunghezza ${p.lato} cm: perimetro = ${p.perimetro()} cm, area = ${p.area().toFixed(2)} cm²`);
+   console.log("----------------------------------------");
+   console.log(`Poligono con ${p.numLati} lati`);
+   console.log(`Lunghezza lato: ${p.lato} cm`);
+   console.log(`Perimetro: ${p.perimetro()} cm`);
+   console.log(`Area: ${p.area().toFixed(2)} cm²`);
+   console.log("----------------------------------------");
 });
